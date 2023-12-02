@@ -10,7 +10,7 @@ def rename_files(directory_path):
 
 
     readme = open("./README.md", "w")
-    readme.write(f"# There is {len(files)} images\n\n\n")
+    readme.write(f"# There is {len(files)} wallpaper\n\n\n")
     readme.close()
 
     # Iterate through the sorted files and rename them
